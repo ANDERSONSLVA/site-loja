@@ -67,7 +67,7 @@ header a {
     color: #ffffff;
     background-color: #ffc107;
     color: #002752;
-    padding: 8px 20px;
+    padding: 10px 20px;
     border-radius: 20px;
     font-weight: 500;
     transition: background-color 0.3s ease;
@@ -186,11 +186,10 @@ main {
     color: #0056b3;
     font-weight: 500;
 }
-
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        align-items: stretch;
+        align-items: stretch; 
         gap: 15px;
     }
 
@@ -204,7 +203,15 @@ main {
         width: 100%;
     }
 
+   
     header a {
-        text-align: center;
+        display: block;      
+        width: 100%;        
+        text-align: center;  
+        
     }
-}
+    .top nav
+    {
+        justify-content: left;
+    }
+}   
